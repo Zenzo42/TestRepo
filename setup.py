@@ -7,22 +7,22 @@ def read(fname):
 
 setup(
     name='krules-mongodb',
-    version="0.0.1",
+    version="0.2.0",
     author="Alberto Degli Esposti",
     author_email="alberto@arispot.tech",
     description="KRules Python mongodb support package",
     licence="Apache Licence 2.0",
     keywords="krules rules mongodb ",
-    url="...",  #TODO
-    packages=find_packages(), #['krules_core'],
+    url="https://github.com/airspot-dev/krules-mongodb",
+    packages=find_packages(),
     long_description=read('README.md'),
     classifiers=[
         "Development Status :: 3 - Alpha",
-        "Framework :: KRules",
         "License :: OSI Approved :: Apache Software License",
     ],
     install_requires=[
         'pymongo==3.9.0',
+        'krules-core==0.2.0'
     ],
     setup_requires=[
         'pytest-runner',
