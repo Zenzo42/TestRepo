@@ -7,7 +7,7 @@ def read(fname):
 
 setup(
     name='krules-cloudstorage',
-    version="0.2.1",
+    version="0.2.2",
     author="Alberto Degli Esposti",
     author_email="alberto@arispot.tech",
     description="KRules Python cloudstorage support package",
@@ -23,7 +23,7 @@ setup(
     install_requires=[
         'google-cloud-storage==1.20.0',
         'cloudstorage==0.10.0',
-        'krules-core==0.2.1'
+        'krules-core==0.2.2'
     ],
     setup_requires=[
         'pytest-runner',
