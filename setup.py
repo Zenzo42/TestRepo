@@ -7,7 +7,7 @@ def read(fname):
 
 setup(
     name='krules-mongodb',
-    version="0.4.0",
+    version="0.4.1",
     author="Alberto Degli Esposti",
     author_email="alberto@arispot.tech",
     description="KRules Python mongodb support package",
@@ -22,7 +22,7 @@ setup(
     ],
     install_requires=[
         'pymongo==3.9.0',
-        'krules-core==0.4.0'
+        'krules-core==0.4.1'
     ],
     setup_requires=[
         'pytest-runner',
